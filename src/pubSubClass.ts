@@ -34,7 +34,7 @@ export class PubSub {
       for (let [key, value] of this.channels) {
         console.log("CHANNEL : ", key);
         for (let [hashId, dataObj] of value) {
-          console.log("data : id = ", hashId, ", name = ", dataObj.name);
+          console.log("data : id = ", hashId+ ", name = ", dataObj.name);
         }      
       }
     }
